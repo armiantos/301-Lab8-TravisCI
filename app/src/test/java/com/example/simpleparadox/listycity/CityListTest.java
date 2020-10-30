@@ -37,6 +37,6 @@ class CityListTest {
         assertFalse(cityList.hasCity(city));
 
         cityList.add(city);
-        assertFalse(cityList.hasCity(city));
+        assertTrue(cityList.hasCity(city));
     }
 }
